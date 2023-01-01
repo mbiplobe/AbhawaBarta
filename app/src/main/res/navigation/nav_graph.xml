@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/TodayWeatherForcastFragment">
+
+    <fragment
+        android:id="@+id/TodayWeatherForcastFragment"
+        android:name="com.hafsa.abhawabarta.fragment.TodayWeatherForcastFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_today_weather_update">
+
+        <action
+            android:id="@+id/action_First2Fragment_to_Second2Fragment"
+            app:destination="@id/NextSevenForcastFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/NextSevenForcastFragment"
+        android:name="com.hafsa.abhawabarta.fragment.NextSevenForcastFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_next_day_weather_update">
+
+        <action
+            android:id="@+id/action_Second2Fragment_to_First2Fragment"
+            app:destination="@id/TodayWeatherForcastFragment" />
+    </fragment>
+</navigation>

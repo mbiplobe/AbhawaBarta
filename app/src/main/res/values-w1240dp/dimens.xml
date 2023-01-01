@@ -1,0 +1,15 @@
+<resources>
+    <dimen name="fab_margin">200dp</dimen>
+    <dimen name="card_view_height">380dp</dimen>
+    <dimen name="spacing_mlarge">20dp</dimen>
+    <dimen name="spacing_xlarge">35dp</dimen>
+    <dimen name="spacing_xxlarge">50dp</dimen>
+    <dimen name="dimen_font_26">24sp</dimen>
+    <dimen name="dimen_border_height">1dp</dimen>
+    <dimen name="dimen_50_dp">50dp</dimen>
+    <dimen name="dimen_20_dp">20dp</dimen>
+    <dimen name="dimen_5_dp">5dp</dimen>
+    <dimen name="image_size_48">48sp</dimen>
+    <dimen name="image_size_24">24sp</dimen>
+    <dimen name="dimen_4_dp">4dp</dimen>
+</resources>
